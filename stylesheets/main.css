@@ -1,0 +1,99 @@
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+body { 
+	font-family: 'Droid Sans Mono', arial, serif; 
+	width:960px;
+	margin:0 auto;
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	color:#111;
+}
+
+div#banner {
+	font-size:5em;
+	line-height:1;
+	margin-top: 0.5em;
+	margin-bottom:0.5em;
+	text-align: center;
+}
+
+img#logo {
+	display: inline-block;
+}
+
+h1 {
+	display: inline-block;
+	vertical-align: 100px;
+}
+h2 {
+	font-size:2em;
+	margin-bottom:0.75em;
+	text-align: center;
+}
+
+h3 {
+	font-size:1.5em;
+	line-height:1;
+	margin-bottom:1em;
+	margin-top:1em;
+}
+
+p {
+	margin:0 0 1.5em;
+}
+div#map {
+	float: left;
+	width: 500px;
+	text-align: right;
+}
+div#address {
+	float: right;
+	text-align: left;
+	width: 300px;
+	margin-top: 1em;
+}
+div#buttons {
+	float: right;
+	text-align: left;
+	width: 300px;
+	margin-top: 1em;
+}
+.clearfix:after, .container:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix, .container {
+	display:block;
+}
+.clear {
+	clear:both;
+}
+
+div#about {
+	float: left;
+	width: 600px;
+}
+
+div#social {
+	width: 300px;
+	float: right;
+}
+
+li ul, li ol {margin:0 1.5em;}
+ul, ol {margin:0 1.5em 1.5em 1.5em;}
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
