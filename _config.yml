@@ -1,0 +1,5 @@
+pygments: true
+markdown: rdiscount
+keywords: - honolulu gtug google hawaii developers
+exclude: [.git, .gitignore, CNAME, changelog.mdown, README.markdown, LICENSE]
+permalink: pretty
